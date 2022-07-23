@@ -50,6 +50,30 @@ public class Main {
 
 //           Третья задача
 
+        for (int i = bow.length-1; i < bow.length&i>=0; i--) {
+            if (i>0){
+                System.out.print(bow[i]+",");
+            }
+        }
+        System.out.println(bow[0]);
+
+
+        for (int i = cut.length-1; i < cut.length&i>=0; i--) {
+            if (i>0){
+                System.out.print(cut[i]+",");
+            }
+        }
+        System.out.println(cut[0]);
+
+
+        for (int i = weight.length-1; i < weight.length&i>=0; i--) {
+            if (i>0){
+                System.out.print(weight[i]+",");
+            }
+        }
+        System.out.println(weight[0]);
+
+
 
     }
 }
