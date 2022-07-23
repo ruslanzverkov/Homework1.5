@@ -7,6 +7,11 @@ public class Main {
         bow[0]=-1;
         bow[1]=2;
         bow[2]=3;
+        bow[3]=6;
+        bow[4]=7;
+        bow[5]=12;
+        bow[6]=11;
+        bow[7]=23;
 
         double[] weight = {1.57,7.654,9.986};
 
@@ -73,6 +78,14 @@ public class Main {
         }
         System.out.println(weight[0]);
 
+//        Задание 4
+
+        for (int i=0;i< bow.length;i++){
+            if (bow[i]%2!=0){
+                System.out.print(bow[i]+1+",");
+            }
+        }
+        System.out.println();
 
 
     }
