@@ -21,7 +21,7 @@ public class Main {
             System.out.print(bow[i]+",");
         }
         System.out.println(bow[bow.length-1]);
-        System.out.println();
+
 
         for (int i = 0; i < bow.length; i++) {
             if (i<bow.length-1){
@@ -34,18 +34,17 @@ public class Main {
 
 
 
+
         for (int i = 0; i < weight.length-1; i++) {
             System.out.print(weight[i]+",");
         }
         System.out.println(weight[weight.length-1]);
-        System.out.println();
 
 
         for (int i = 0; i < cut.length-1; i++) {
             System.out.print(cut[i]+",");
         }
         System.out.println(cut[cut.length-1]);
-        System.out.println();
 
 
 
